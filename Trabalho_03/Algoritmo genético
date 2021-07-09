@@ -1,0 +1,27 @@
+Algorítimo genético:
+
+    cada individuo da população é um vetor binário de 20 bits
+
+    INDIVIDUO[ OK ]
+        vetor binário de 10 bis
+        nota do individuo
+
+        A[linha][coluna]
+        linha == quantidade de individuos
+        coluna == tamanho do individuo
+
+        randint(0,1) gera ou 1 ou 0 aleatoriamente para criar os primeiros meninos
+
+
+    função para escolher os pares, ROLETA
+
+    ROLETA
+        individuo com maior nota tem mais chance de ser escolhido
+        a nota é dada pela função de avaliação
+
+
+    função de cortar aleatoriamente em um ponto,
+        os dois são cortados no mesmo ponto
+        troca as partes, pensar como fazer isso
+    passar todos na função de avaliação, dada na questão
+    definir quantas gerações vão ser, a principio 10, depois 100, 1000, 10000
